@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPDProject version="9" oldestCompatibleVersion="9" GPDVersion="6.15.004" lastChange="06.11.2018 0:15">
+    <generalProjectSettings/>
+    <chip family="04" type="06" friendlyName="GreenPAK 6" partNumber="37" package="3">
+        <nvmData registerLenght="2048">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 C0 F 0 0 0 0 0 F0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 A0 44 98 1 38 0 0 0 0 0 0 0 0 0 0 0 A0 20 0 94 70 8 A A 23 C0 60 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 0 0 20 0 80 0 0 2 0 2 0 2 0 2 0 80 0 0 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 5A 0 0 1 0 0 F1 2 A5</nvmData>
+        <checksum crc32="0xF122C0DA" version="8"/>
+        <asmModel>
+            <stateMachine>
+                <asmModel version="2">
+                    <states>
+                        <state index="0" label="State 0" outsTable="0" outsTableSize="0"/>
+                        <state index="1" label="State 1" outsTable="0" outsTableSize="0"/>
+                        <state index="2" label="State 2" outsTable="0" outsTableSize="0"/>
+                        <state index="3" label="State 3" outsTable="0" outsTableSize="0"/>
+                        <state index="4" label="State 4" outsTable="0" outsTableSize="0"/>
+                        <state index="5" label="State 5" outsTable="0" outsTableSize="0"/>
+                        <state index="6" label="State 6" outsTable="0" outsTableSize="0"/>
+                        <state index="7" label="State 7" outsTable="0" outsTableSize="0"/>
+                        <state index="8" label="State 8" outsTable="0" outsTableSize="0"/>
+                        <state index="9" label="State 9" outsTable="0" outsTableSize="0"/>
+                        <state index="10" label="State 10" outsTable="0" outsTableSize="0"/>
+                        <state index="11" label="State 11" outsTable="0" outsTableSize="0"/>
+                    </states>
+                    <transitions/>
+                    <outputs>
+                        <output index="0" name="OUT0"/>
+                        <output index="1" name="OUT1"/>
+                        <output index="2" name="OUT2"/>
+                        <output index="3" name="OUT3"/>
+                    </outputs>
+                </asmModel>
+            </stateMachine>
+        </asmModel>
+        <VDDItem id="0" viewMode="0" min="2.3000" max="5.5000">
+            <item id="0" caption="VDD (PIN 1)">
+                <graphics pos="(-1097.50,-35.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+            </item>
+        </VDDItem>
+        <IOPad id="1" useCaseMode="1">
+            <item id="1" caption="PIN 2 (GPI0)">
+                <graphics pos="(-1097.50,25.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-26.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">ADDRESS_BIT0</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="2" useCaseMode="1">
+            <item id="2" caption="PIN 3 (GPIO0/SCL)">
+                <graphics pos="(-1097.50,105.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(6.00,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">SCL</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="3" useCaseMode="1">
+            <item id="3" caption="PIN 4 (GPIO1/SDA)">
+                <graphics pos="(-1097.50,135.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(4.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">SDA</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="4" useCaseMode="1">
+            <item id="4" caption="PIN 5 (GPIO2)">
+                <graphics pos="(-1097.50,255.00)" angle="0" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-26.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">ADDRESS_BIT1</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="5" useCaseMode="2">
+            <item id="5" caption="PIN 6 (GPIO3)">
+                <graphics pos="(-647.50,453.75)" angle="270" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(70.00,-22.00)" angle="-270.00" textColor="#ffff00ff" backgroundColor="#14141464">BLUE_LED</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="6" useCaseMode="2">
+            <item id="6" caption="PIN 7 (GPO0)">
+                <graphics pos="(-567.50,455.00)" angle="270" flipping="0" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(70.00,-26.50)" angle="-270.00" textColor="#ffff00ff" backgroundColor="#14141464">GREEN_LED</textLabel>
+            </item>
+        </IOPad>
+        <item id="7" caption="GND (PIN 8)">
+            <graphics pos="(-110.00,233.75)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+        </item>
+        <IOPad id="8" useCaseMode="1">
+            <item id="8" caption="PIN 9 (GPIO4)">
+                <graphics pos="(-110.00,163.75)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-26.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">ADDRESS_BIT2</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="9" useCaseMode="1">
+            <item id="9" caption="PIN 10 (GPIO5)">
+                <graphics pos="(-110.00,83.75)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-26.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">ADDRESS_BIT3</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="10" useCaseMode="0">
+            <item id="10" caption="PIN 11 (GPIO6)">
+                <graphics pos="(-110.00,3.75)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(8.50,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">NC</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="11" useCaseMode="2">
+            <item id="11" caption="PIN 12 (GPIO7)">
+                <graphics pos="(-110.00,-66.25)" angle="0" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(-9.00,-28.00)" angle="0.00" textColor="#ffff00ff" backgroundColor="#14141464">RED_LED</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="12" useCaseMode="0">
+            <item id="12" caption="PIN 13 (GPIO8)">
+                <graphics pos="(-578.75,-260.00)" angle="270" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(70.00,-1.50)" angle="-270.00" textColor="#ffff00ff" backgroundColor="#14141464">NC</textLabel>
+            </item>
+        </IOPad>
+        <IOPad id="13" useCaseMode="0">
+            <item id="13" caption="PIN 14 (GPIO9)">
+                <graphics pos="(-660.00,-260.00)" angle="270" flipping="1" hidden="0" tOrigin="(20.00,10.00)"/>
+                <textLabel pos="(70.00,-1.50)" angle="-270.00" textColor="#ffff00ff" backgroundColor="#14141464">NC</textLabel>
+            </item>
+        </IOPad>
+        <item id="14" caption="A CMP0H">
+            <graphics pos="(-840.00,-110.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,28.00)"/>
+        </item>
+        <item id="15" caption="A CMP1H">
+            <graphics pos="(-700.00,-110.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,28.00)"/>
+        </item>
+        <item id="16" caption="A CMP2L">
+            <graphics pos="(-840.00,-20.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,28.00)"/>
+        </item>
+        <item id="17" caption="A CMP3L">
+            <graphics pos="(-700.00,-20.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,28.00)"/>
+        </item>
+        <item id="18" caption="P DLY">
+            <graphics pos="(-570.00,140.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="19" caption="VREF0">
+            <graphics pos="(-570.00,-100.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="20" caption="VREF1">
+            <graphics pos="(-570.00,0.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="21" caption="POR">
+            <graphics pos="(-570.00,250.00)" angle="0" flipping="0" hidden="1" tOrigin="(17.50,10.00)"/>
+        </item>
+        <item id="22" caption="OSC0">
+            <graphics pos="(-840.00,100.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,40.00)"/>
+        </item>
+        <item id="23" caption="OSC1">
+            <graphics pos="(-840.00,200.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,25.00)"/>
+        </item>
+        <item id="24" caption="OSC2">
+            <graphics pos="(-840.00,270.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,20.00)"/>
+        </item>
+        <item id="25" caption="I2C">
+            <graphics pos="(-987.50,91.00)" angle="0" flipping="0" hidden="0" tOrigin="(25.00,45.00)"/>
+        </item>
+        <item id="26" caption="TEMP SENSOR">
+            <graphics pos="(-570.00,190.00)" angle="0" flipping="0" hidden="1" tOrigin="(28.00,15.00)"/>
+        </item>
+        <item id="27" caption="FILTER/EDGE DET">
+            <graphics pos="(-570.00,100.00)" angle="0" flipping="0" hidden="1" tOrigin="(27.50,15.00)"/>
+        </item>
+        <LUT id="29" regularShape="0" mode="0">
+            <item id="29" caption="2-bit LUT0/DFF/LATCH0">
+                <graphics pos="(-450.00,-110.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="30" regularShape="0" mode="0">
+            <item id="30" caption="2-bit LUT1/DFF/LATCH1">
+                <graphics pos="(-450.00,-60.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="31" regularShape="0" mode="0">
+            <item id="31" caption="2-bit LUT2/DFF/LATCH2">
+                <graphics pos="(-450.00,-10.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="32" regularShape="0" mode="0">
+            <item id="32" caption="2-bit LUT3/PGEN">
+                <graphics pos="(-450.00,40.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="33" regularShape="0" mode="0">
+            <item id="33" caption="3-bit LUT0/DFF/LATCH3">
+                <graphics pos="(-350.00,-110.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="34" regularShape="0" mode="0">
+            <item id="34" caption="3-bit LUT1/DFF/LATCH4">
+                <graphics pos="(-350.00,-60.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="35" regularShape="0" mode="0">
+            <item id="35" caption="3-bit LUT2/DFF/LATCH5">
+                <graphics pos="(-350.00,-10.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="36" regularShape="0" mode="0">
+            <item id="36" caption="3-bit LUT3/DFF/LATCH6">
+                <graphics pos="(-350.00,40.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="37" regularShape="0" mode="0">
+            <item id="37" caption="3-bit LUT4/DFF/LATCH7">
+                <graphics pos="(-350.00,90.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="38" regularShape="0" mode="0">
+            <item id="38" caption="3-bit LUT5/DFF/LATCH8">
+                <graphics pos="(-350.00,140.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="39" regularShape="0" mode="0">
+            <item id="39" caption="3-bit LUT6/DFF/LATCH9">
+                <graphics pos="(-350.00,190.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="40" regularShape="0" mode="0">
+            <item id="40" caption="3-bit LUT7/DFF/LATCH10">
+                <graphics pos="(-350.00,240.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="41" regularShape="0" mode="0">
+            <item id="41" caption="3-bit LUT8/DFF/LATCH11">
+                <graphics pos="(-350.00,290.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="42" regularShape="0" mode="0">
+            <item id="42" caption="3-bit LUT16/Pipe Delay/Ripple Counter">
+                <graphics pos="(-350.00,340.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <LUT id="43" regularShape="0" mode="0">
+            <item id="43" caption="4-bit LUT0/DFF/LATCH12">
+                <graphics pos="(-350.00,440.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="44" caption="MF0 (4-bit LUT1, DFF/LATCH20, WS Ctrl, 16-bit CNT0/DLY0/FSM0)">
+            <graphics pos="(-1190.00,-170.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="45" caption="MF1 (3-bit LUT9, DFF/LATCH13, 8-bit CNT1/DLY1)">
+            <graphics pos="(-1190.00,-10.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="46" caption="MF2 (3-bit LUT10, DFF/LATCH14, 8-bit CNT2/DLY2)">
+            <graphics pos="(-1190.00,140.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="47" caption="MF3 (3-bit LUT11, DFF/LATCH15, 8-bit CNT3/DLY3)">
+            <graphics pos="(-1190.00,300.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="48" caption="MF4 (3-bit LUT12, DFF/LATCH16, 8-bit CNT4/DLY4)">
+            <graphics pos="(-230.00,-180.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="49" caption="MF5 (3-bit LUT13, DFF/LATCH17, 8-bit CNT5/DLY5)">
+            <graphics pos="(-230.00,-20.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="50" caption="MF6 (3-bit LUT14, DFF/LATCH18, 8-bit CNT6/DLY6)">
+            <graphics pos="(-230.00,130.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <item id="51" caption="MF7 (3-bit LUT15, DFF/LATCH19, 8-bit CNT7/DLY7)">
+            <graphics pos="(-230.00,280.00)" angle="0" flipping="0" hidden="1" tOrigin="(155.00,60.00)"/>
+        </item>
+        <LUT id="52" regularShape="0" mode="0">
+            <item id="52" caption="4-bit LUT1 (MF0)">
+                <graphics pos="(-1055.00,-125.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="53" caption="DFF/LATCH20 (MF0)">
+            <graphics pos="(-1130.00,-170.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="54" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="54" caption="16-bit CNT0/DLY0/FSM0 (MF0)">
+                <graphics pos="(-1130.00,-120.00)" angle="0" flipping="0" hidden="1" tOrigin="(35.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="55" regularShape="0" mode="0">
+            <item id="55" caption="3-bit LUT9 (MF1)">
+                <graphics pos="(-1055.00,35.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="56" caption="DFF/LATCH13 (MF1)">
+            <graphics pos="(-1130.00,-20.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="57" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="57" caption="8-bit CNT1/DLY1 (MF1)">
+                <graphics pos="(-1130.00,30.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="58" regularShape="0" mode="0">
+            <item id="58" caption="3-bit LUT10 (MF2)">
+                <graphics pos="(-1055.00,185.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="59" caption="DFF/LATCH14 (MF2)">
+            <graphics pos="(-1230.00,140.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="60" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="60" caption="8-bit CNT2/DLY2 (MF2)">
+                <graphics pos="(-1130.00,180.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="61" regularShape="0" mode="0">
+            <item id="61" caption="3-bit LUT11 (MF3)">
+                <graphics pos="(-1055.00,345.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="62" caption="DFF/LATCH15 (MF3)">
+            <graphics pos="(-1410.00,300.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="63" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="63" caption="8-bit CNT3/DLY3 (MF3)">
+                <graphics pos="(-1130.00,340.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="64" regularShape="0" mode="0">
+            <item id="64" caption="3-bit LUT12 (MF4)">
+                <graphics pos="(-95.00,-135.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="65" caption="DFF/LATCH16 (MF4)">
+            <graphics pos="(40.00,-360.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="66" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="66" caption="8-bit CNT4/DLY4 (MF4)">
+                <graphics pos="(-170.00,-130.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="67" regularShape="0" mode="0">
+            <item id="67" caption="3-bit LUT13 (MF5)">
+                <graphics pos="(-95.00,25.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="68" caption="DFF/LATCH17 (MF5)">
+            <graphics pos="(-110.00,-200.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="69" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="69" caption="8-bit CNT5/DLY5 (MF5)">
+                <graphics pos="(-170.00,20.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="70" regularShape="0" mode="0">
+            <item id="70" caption="3-bit LUT14 (MF6)">
+                <graphics pos="(-95.00,175.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="71" caption="DFF/LATCH18 (MF6)">
+            <graphics pos="(-280.00,-40.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="72" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="72" caption="8-bit CNT6/DLY6 (MF6)">
+                <graphics pos="(-170.00,170.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <LUT id="73" regularShape="0" mode="0">
+            <item id="73" caption="3-bit LUT15 (MF7)">
+                <graphics pos="(-95.00,325.00)" angle="90" flipping="0" hidden="1" tOrigin="(20.00,15.00)"/>
+            </item>
+        </LUT>
+        <item id="74" caption="DFF/LATCH19 (MF7)">
+            <graphics pos="(-440.00,110.00)" angle="0" flipping="0" hidden="1" tOrigin="(25.00,10.00)"/>
+        </item>
+        <CNTDLY id="75" externalClockFrequence="0" externalClockFreqUnit="kHz">
+            <item id="75" caption="8-bit CNT7/DLY7 (MF7)">
+                <graphics pos="(-170.00,330.00)" angle="0" flipping="0" hidden="1" tOrigin="(30.00,16.00)"/>
+            </item>
+        </CNTDLY>
+        <wire output="173" input="111" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="0" wireText="NET0" wireState="0">
+            <points>(-1035.00,121.00); (-1008.00,121.00)</points>
+        </wire>
+        <wire output="174" input="112" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="1" wireText="NET1" wireState="0">
+            <points>(-1035.00,151.00); (-1008.00,151.00)</points>
+        </wire>
+        <wire output="0" input="582" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+        <wire output="0" input="597" autoRouting="1" pen="#ff8000ff;1.00;1;32;128" protected="1" CWLid="-1" wireText="VDD" wireState="1">
+            <points/>
+        </wire>
+    </chip>
+    <emulatorConfiguration version="1">
+        <settings>
+            <autoApply value="0"/>
+            <platformSelector id="-1"/>
+        </settings>
+        <platform id="0" friendlyName="GreenPAK DIP Development Platform">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="1" friendlyName="GreenPAK Advanced Development Platform">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="2" friendlyName="GreenPAK Pro Development Platform">
+            <lastConfiguration modified="0">
+                <SaveEmulator Name="Default">
+                    <PowerOptions synced="0"/>
+                    <PowerSwitch internalPower="1" externalPower="0"/>
+                    <ExpansionConnector></ExpansionConnector>
+                    <TestPoints/>
+                </SaveEmulator>
+            </lastConfiguration>
+            <savedConfigurations/>
+        </platform>
+        <platform id="3" friendlyName="Software Simulation"/>
+        <platform id="4" friendlyName="GreenPAK In-System Programmer"/>
+    </emulatorConfiguration>
+    <simulationConfiguration version="4" compatibleVersion="4" activePreset="-1">
+        <draftPreset>
+            <simulationPreset index="-1" name="Default">
+                <tran max="2.000000e+1|6" start="0.000000e+0|5" step="2.000000e+1|6" stop="1.200000e+1|5" temp="25" uic="false" vdd="3.300000e+0|4"/>
+                <probes/>
+                <gnds>
+                    <gnd model_id="0" term_id="7"/>
+                </gnds>
+                <voltageSources>
+                    <vsrc model_id="0" term_id="0" hasRC="1" intR="1.000000e+1|4" intC="1.000000e+2|7" showOnePer="0" hasLimitedVoltage="0" td="0.000000e+0|5" viewName="VDD" V="3.300000e+0|4" tr="1.000000e+0|5" type="ramp"/>
+                </voltageSources>
+                <groups/>
+                <waveforms/>
+                <simIdItemMode/>
+                <xtals/>
+            </simulationPreset>
+        </draftPreset>
+        <simulationPresets/>
+    </simulationConfiguration>
+    <projectData>
+        <specs>
+            <lastModify lastModifyValue="05.11.2018 22:04:58"/>
+            <vddSpecs vddMin="2.3" vddTyp="3.3" vddMax="5.5"/>
+            <vdd2Specs/>
+            <tempSpecs tempMin="-40" tempTyp="25" tempMax="85"/>
+        </specs>
+        <projectDataFields>
+            <textLineDataField name="Customer&#10;Name:" id="2" text=""/>
+            <textLineDataField name="Customer&#10;Project Name:" id="3" text=""/>
+            <textLineDataField name="Customer&#10;Project Number:" id="4" text=""/>
+            <textLineDataField name="Customer&#10;Version Number:" id="5" text=""/>
+            <multiTextLineDataField>
+                <textLineDataField name="Notes:" id="6" text=""/>
+            </multiTextLineDataField>
+        </projectDataFields>
+    </projectData>
+    <i2cTool>
+        <i2cDebugger version="1"/>
+        <i2cStepper version="1" rowCount="0"/>
+    </i2cTool>
+</GPDProject>
