@@ -8,6 +8,9 @@ CNT2REG_ADDR = 0x9a #Red
 CNT3REG_ADDR = 0x9c #Green
 CNT4REG_ADDR = 0x9e #Blue
 
+START_HEX = "#FF0000"
+STOP_HEX = "#AAFFFF"
+GRAD_STEPS = 30
 
 #Send PWM data via I2C
 def send_pwm_f(reg_addr, pwm):
@@ -49,7 +52,9 @@ Just for fun
 from gradients import linear_gradient
 
 #Generate gradient
-grad_dict = linear_gradient("#000000", "#FFFFFF", 100)
+grad_dict = linear_gradient(START_HEX, STOP_HEX, GRAD_STEPS)
+
+set_rgb_f(0,0,0)
 
 for i in range(0, len(grad_dict['hex'])):
     set_red_f(grad_dict['r'][i])
@@ -57,3 +62,7 @@ for i in range(0, len(grad_dict['hex'])):
     set_blue_f(grad_dict['b'][i])
     print("RGB: ", grad_dict['hex'][i])
     time.sleep(0.1)
+
+
+time.sleep(3)
+set_rgb_f(0,0,0)
