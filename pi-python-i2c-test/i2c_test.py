@@ -30,9 +30,9 @@ from numpy import random as rnd
 bus = smbus.SMBus(1)     # 1 = /dev/i2c-1 (port I2C1)
 
 GREENPAK_ADDR = 0x78
-CNT2_REG_ADDR = 0x9a #Red
-CNT3_REG_ADDR = 0x9c #Green
-CNT4_REG_ADDR = 0x9e #Blue
+CNT2REG_ADDR = 0x9a #Red
+CNT3REG_ADDR = 0x9c #Green
+CNT4REG_ADDR = 0x9e #Blue
 
 
 #Send PWM data via I2C
@@ -43,19 +43,19 @@ def send_pwm_f(reg_addr, pwm):
 
 #Set PWM for Red LED
 def set_red_f(pwm):
-    send_pwm_f(CNT2_REG_ADDR, pwm)
+    send_pwm_f(CNT2REG_ADDR, pwm)
     return
 
 
-#Set PWM for Green LED
+#Set PWM for Green PWM
 def set_green_f(pwm):
-    send_pwm_f(CNT3_REG_ADDR, pwm)
+    send_pwm_f(CNT3REG_ADDR, pwm);
     return
 
 
-#Set PWM for Blue LED
+#Set PWM for Blue PWM
 def set_blue_f(pwm):
-    send_pwm_f(CNT4_REG_ADDR, pwm)
+    send_pwm_f(CNT4REG_ADDR, pwm);
     return
 
 
